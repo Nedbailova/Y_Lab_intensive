@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  color: #090446;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  min-width: 810px;
+  background: rgba(9, 4, 70, 0.3);
+}
+
+.container {
+  max-width: 810px;
+  padding: 103px 69px 85px 133px;
+  box-sizing: border-box;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+}
+
+@media (max-width: 810px) {
+  body {
+    overflow-x: auto;
+  }
+}
+
+.title {
+  color: #090446;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.title-text {
+  font-weight: 500;
+}
+
+.form {
+  padding-top: 40px;
+}
+
+input {
+  border-radius: 12px;
+  background: rgba(53, 44, 150, 0.2);
+  border-color: rgba(53, 44, 150, 0.2);
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+input:hover,
+input:focus {
+  outline: none;
+  background: rgba(105, 95, 216, 0.2);
+  border-color: rgba(53, 50, 82, 0.6);
+}
+
+#input_email {
+  width: 575px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+#input_password {
+  width: 575px;
+  height: 60px;
+  margin-bottom: 40px;
+}
+
+.social p {
+  padding-left: 10px;
+}
+
+.button_login {
+  border-radius: 12px;
+  width: 575px;
+  height: 80px;
+  background: #f71735;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  border: none;
+  margin-bottom: 24px;
+}
+
+.button_login:hover {
+  color: white;
+  background: #bc1229;
+}
+
+.error {
+  border: 2px solid red;
+}
